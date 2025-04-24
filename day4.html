@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 4 HTML (FORM)</title>
+</head>
+
+<body>
+    <h1>Forms in HTML5</h1>
+
+    <form action="https://www.google.com/submit" enctype="multipart/form-data" method="post">
+
+        <fieldset>
+            <legend>Employee Information</legend>
+
+            <label for="name">Name</label> <br>
+            <input type="text" placeholder="Enter your name" /> <br> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" placeholder="Enter your email address" /> <br> <br>
+
+            <label for="password">Password</label> <br>
+            <input type="password" placeholder="Enter your password"> <br> <br>
+
+            <label for="dob">Date of Birth</label> <br>
+            <input type="date"> <br> <br>
+
+            <button type="submit">Submit form</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>New Tags</legend>
+
+            <label>Gender</label> <br>
+            <label for="gender">Male</label> <input type="radio" name="gender" />
+            <label for="gender">Female</label> <input type="radio" name="gender" /><br><br>
+
+            <label>Skills</label> <br>
+            <label for="HTML">HTML</label> <input type="checkbox" name="Skill-1" />
+            <label for="CSS">CSS</label> <input type="checkbox" name="Skill-1" />
+
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
