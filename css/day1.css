@@ -1,0 +1,30 @@
+/* EXTERNAL CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TAG LEVEL SELECTORS */
+
+h2 {
+  font-size: 40px;
+  letter-spacing: -3.1px;
+  color: seagreen;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+}
+
+li{
+list-style: none;
+}
