@@ -32,5 +32,3 @@ const newName = "Ahsan";
 // 3 - object
 // 4 - arrays
 // 5 - boolean
-
-
