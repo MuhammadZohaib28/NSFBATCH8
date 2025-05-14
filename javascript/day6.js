@@ -20,26 +20,27 @@ for (let i = 1; i <= 10; i++) {
 
 //WHILE LOOP IN JS
 
-// let correctPassword = "1234qwer";
-// let attempts = 0;
-// let maximumAttempts = 3;
-// let isBlocked = false;
+let correctPassword = "1234qwer";
+let attempts = 0;
+let maximumAttempts = 3;
+let isBlocked = false;
 
-// while (attempts < maximumAttempts && !isBlocked) {
-//   let userPin = prompt("Enter password please.");
+while (attempts < maximumAttempts && !isBlocked) {
+  let userPin = prompt("Enter password please.");
 
-//   if (userPin === correctPassword) {
-//     console.log("Access granted, Welcome");
-//     break;
-//   } else {
-//     console.log("Wrong Password");
+  if (userPin === correctPassword) {
+    console.log("Access granted, Welcome");
+    break;
+  } else {
+    attempts++;
+    console.log(`Wrong Password, ${maximumAttempts - attempts + 1} attempts left`);
 
-//     if (attempts > maximumAttempts) {
-//       isBlocked = true;
-//       console.log("Your account is blocked.");
-//     }
-//   }
-// }
+    if (attempts === maximumAttempts) {
+      isBlocked = true;
+      console.log("Your account is blocked.");
+    }
+  }
+}
 
 //SWITCH CASES
 let userInput = 1;
@@ -58,6 +59,6 @@ switch (userInput) {
     break;
 
   default:
-    console.log("Invalid Item")
+    console.log("Invalid Item");
     break;
 }
