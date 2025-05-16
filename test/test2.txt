@@ -1,0 +1,83 @@
+QNO1
+
+let students = [
+  { name: "Ali", marks: 85 },
+  { name: "Sara", marks: 92 },
+  { name: "John", marks: 67 },
+  { name: "Ayesha", marks: 48 }
+];
+
+
+Write a program that:
+
+Prints the names of students who passed (marks >= 50).
+
+Counts how many students passed.
+
+Prints the total number of passed students at the end.
+
+
+
+
+
+QNO2 
+
+Question:
+Create an object book with the following properties:
+
+title (string)
+
+author (string)
+
+year (number)
+
+Then, write a condition that checks if the book was published before 2020 and prints:
+
+"Old Book" or "New Book" based on the year.
+
+
+
+
+
+
+QNO3
+
+let numbers = [3, 7, 2, 9, 4];
+
+Write code that calculates the sum of all elements in the array using a loop, and prints the total.
+
+
+
+
+
+
+QNO4
+
+You are given a variable marks. Write a program using if-else that assigns a grade based on the following rules:
+
+90 and above → "A"
+
+75 to 89 → "B"
+
+50 to 74 → "C"
+
+Below 50 → "Fail"
+
+Print the grade.
+
+
+QNO5
+
+Write a for loop that prints only the even numbers between 1 and 10, and also counts how many even numbers were found. Print the final count after the loop.
+
+
+
+QNO6
+
+Write a program that checks if a number is even or odd and prints the result.
+
+
+
+QNO7 
+
+Write a for loop that prints numbers from 1 to 5 in the console.
