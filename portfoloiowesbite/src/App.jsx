@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import HeroSection from "./components/HeroSection";
-import AboutMe from "./components/AboutMe";
-import SkillsSection from "./components/SkillsSection";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection/HeroSection";
+import AboutMe from "./components/Aboutme/AboutMe";
+import SkillsSection from "./components/SkillsSection/SkillsSection";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
