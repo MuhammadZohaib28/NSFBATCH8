@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}   
+
+
+.theme-btn{
+    font-size:2rem;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

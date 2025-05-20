@@ -29,7 +29,7 @@ title (string)
 
 author (string)
 
-year (number)
+year (number) 
 
 Then, write a condition that checks if the book was published before 2020 and prints:
 
@@ -68,7 +68,7 @@ Print the grade.
 
 QNO5
 
-Write a for loop that prints only the even numbers between 1 and 10, and also counts how many even numbers were found. Print the final count after the loop.
+Write a for loop that prints only the even numbers between 1 and 10, and also counts how many ev  en   numbers were found. Print the final count after the loop.
 
 
 
