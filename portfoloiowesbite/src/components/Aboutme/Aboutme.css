@@ -11,7 +11,7 @@
   background-color: rgba(255, 255, 0, 0.618);
   color: seagreen;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .aboutme-bottom {
@@ -23,9 +23,9 @@
 }
 
 .aboutme-bottom-canvas {
-  background-color: rgba(255, 255, 0, 0.618);
+  background-color: rgb(255, 255, 0);
   border-radius: 2rem;
-  height: 400px;
+  height: 520px;
 }
 
 .aboutme-bottom-canvas img {
@@ -37,10 +37,10 @@
 .aboutme-paragraph {
   width: 50%;
   background-color: whitesmoke;
-  height: 400px;
+  height: 520px;
   padding: 1rem;
   border-radius: 2rem;
-  overflow: scroll;
+ 
   
 }
 
