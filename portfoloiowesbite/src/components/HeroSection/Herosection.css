@@ -1,0 +1,78 @@
+.herosection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 2.8rem);
+  gap: 3rem;
+}
+
+.herosection-leftsection {
+  /* border: 2px solid red; */
+  background-color: rgba(255, 255, 0, 0.618);
+  border-radius: 2rem;
+  height: 450px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+  padding: 1rem;
+}
+
+.herosection-rightsection {
+  border: 2px solid green;
+  background-color: seagreen;
+  border-radius: 2rem;
+  height: 450px;
+}
+
+.herosection-rightsection img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 4rem;
+  margin: 0 auto;
+}
+
+.user-name {
+  font-size: 3rem;
+  color: seagreen;
+}
+
+.position-name {
+  background-color: rgb(0, 83, 0);
+  width: 70%;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+.position-name h1 {
+  font-size: 2.5rem;
+  color: seagreen;
+}
+
+.intro-line {
+  font-size: 1.4rem;
+}
+
+.icons {
+  font-size: 2.5rem;
+}
+
+.icons:nth-child(1) {
+  color: rgb(20, 20, 20);
+}
+
+.icons:nth-child(2) {
+  color: rgb(80, 80, 253);
+}
+
+.icons:nth-child(3) {
+  color: green;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

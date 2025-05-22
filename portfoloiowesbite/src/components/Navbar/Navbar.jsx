@@ -8,6 +8,10 @@ const Navbar = () => {
 
   const themeChanger = () => {
     setThemeButton(!themeButton);
+
+    const body = document.body;
+
+    body.classList.toggle("dark-theme")
   };
 
   const menuItems = [
