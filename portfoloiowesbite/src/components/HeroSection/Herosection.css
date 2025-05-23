@@ -20,7 +20,6 @@
 }
 
 .herosection-rightsection {
-  border: 2px solid green;
   background-color: seagreen;
   border-radius: 2rem;
   height: 450px;
@@ -30,8 +29,12 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
-  border-radius: 4rem;
+  border-radius: 4rem;  
   margin: 0 auto;
+}
+
+.herosection-rightsection:hover {
+  cursor: url("../../assets/cursor2.cur"), default;
 }
 
 .user-name {

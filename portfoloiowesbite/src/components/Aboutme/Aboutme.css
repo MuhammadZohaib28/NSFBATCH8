@@ -11,35 +11,37 @@
   background-color: rgba(255, 255, 0, 0.618);
   color: seagreen;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .aboutme-bottom {
-  display: flex;
+  display: flex;  
   justify-content: center;
   align-items: center;
   gap: 2rem;
   margin: auto 0;
+  flex-direction: row-reverse;
 }
 
 .aboutme-bottom-canvas {
-  background-color: rgb(255, 255, 0);
+  background-color: #FFFF61;
   border-radius: 2rem;
-  height: 520px;
+  height: 470px;
 }
 
 .aboutme-bottom-canvas img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .aboutme-paragraph {
   width: 50%;
   background-color: whitesmoke;
-  height: 520px;
+  height: 470px;
   padding: 1rem;
   border-radius: 2rem;
+  font-size: 1.4rem;
  
   
 }
@@ -48,4 +50,11 @@
 
 .aboutme-paragraph p{
     font-size: 1.4rem;
+}
+
+.aboutme-heading{
+  font-size: 4rem;
+  color: #FFFF61;
+  margin-left: 2rem;
+
 }

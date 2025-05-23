@@ -1,0 +1,43 @@
+.skillsection {
+  height: 100vh;
+}
+
+.skillsection-heading {
+  font-size: 4rem;
+  color: seagreen;
+  margin-left: 2rem;
+}
+
+.cards {
+  border-left: 12px solid seagreen;
+  background-color: #ffff61;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  width: 440px;
+}
+
+.cards-top {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cards-top h1 {
+  font-size: 2.5rem;
+}
+
+.cards-description {
+  background-color: rgba(46, 139, 86, 0.26);
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.cards-container {
+  display: flex;    
+  gap: 2rem;    
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+  justify-content: start;
+}

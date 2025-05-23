@@ -1,0 +1,10 @@
+.projects {
+  height: 100vh;
+  background-color: #ffff61;
+}
+
+.project-heading {
+  font-size: 4rem;
+  color: seagreen;
+  margin-left: 2rem;
+}
