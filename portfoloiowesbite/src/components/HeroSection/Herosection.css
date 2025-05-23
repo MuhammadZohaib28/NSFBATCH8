@@ -33,9 +33,7 @@
   margin: 0 auto;
 }
 
-.herosection-rightsection:hover {
-  cursor: url("../../assets/cursor2.cur"), default;
-}
+
 
 .user-name {
   font-size: 3rem;
