@@ -1,0 +1,82 @@
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0.8rem;
+  border: 2px solid seagreen;
+  width: 450px;
+  height: 570px;
+  background-color: seagreen;
+  border-radius: 1rem;
+  padding: 1rem;
+  /* height: 300px; */
+}
+
+
+.projectCard-image-container{
+    height: 200px;
+    width: 100%;
+    border-radius: 0.4rem;
+    background-color: whitesmoke
+}
+
+.card-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.projectCard h1 {
+  color: whitesmoke;
+  font-size: 2.2rem;
+}
+
+.projectCard-skills li {
+  color: black;
+  font-weight: 600;
+  border-radius: 0.2rem;
+  list-style: none;
+  padding: 0.2rem;
+  margin-top: 0.4rem;
+  background-color: #ffff61;
+}
+
+/* .projectCard-skills li:nth-child(1) {
+  color: whitesmoke;
+  background-color: #ffff61;
+}
+
+.projectCard-skills li:nth-child(2) {
+  color: whitesmoke;
+  background-color: #ffff61;
+} */
+
+.projectCard-skills {
+  /* background-color: red; */
+  /* height: 150px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.projectCard-link {
+  cursor: pointer;
+  width: 100%;
+}
+
+.projectCard-link button {
+  cursor: pointer;
+  background-color: #ffff61;
+  outline: none;
+  border: none;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  font-weight: 400;
+  width: 100%;
+}
+
+.projectCard-link button:hover {
+  background-color: #fcfc05;
+}

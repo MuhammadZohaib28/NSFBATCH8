@@ -1,5 +1,5 @@
 .projects {
-  height: 100vh;
+  height: 100%;
   background-color: #ffff61;
 }
 
@@ -7,4 +7,11 @@
   font-size: 4rem;
   color: seagreen;
   margin-left: 2rem;
+}
+
+
+.projectCard p {
+  font-size: 1.3rem;
+  
+
 }
