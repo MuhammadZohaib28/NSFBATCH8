@@ -1,0 +1,77 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.contact-heading {
+  font-size: 4rem;
+  color: #ffff61;
+  margin-left: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: seagreen;
+  width: 70%;
+  margin: auto;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.name-field,
+.text-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.7rem;
+}
+
+.top-fields {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+input,
+textarea {
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  width: 100%;
+  background-color: whitesmoke;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  border: 2px solid black;
+}
+
+label {
+  background-color: #ffff61;
+  width: 15%;
+  font-size: 1.4rem;
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+}
+
+.text-field label {
+  width: 30%;
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+}
+
+form button {
+  font-size: 1.2rem;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.7rem;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+form button:hover {
+  background-color: #ffff61;
+  cursor: pointer;
+}
